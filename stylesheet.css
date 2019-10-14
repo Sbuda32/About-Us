@@ -1,0 +1,126 @@
+.staffgrid {
+    
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .staffgrid:after {
+
+    content: '';
+    display: block;
+    clear: both;
+  }
+  
+  .staffgrid__item {
+
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 275px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    border: 1px solid black;
+  }
+
+  .staffgrid__item:nth-of-type(3n + 5) {
+
+    height: 247.5px;
+  }
+
+  .staffgrid__item:hover .staffgrid__item-title {
+    
+    transition: 0.5s;
+    bottom: 0;
+  }
+
+  .staffgrid__item:hover {
+
+    opacity: 0.7;
+  }
+
+  @media (min-width: 319px) {
+
+    .staffgrid__item {
+
+      width: 50%;
+    }
+  }
+
+  @media (min-width: 640px) {
+
+    .staffgrid__item {
+
+      width: 25%;
+    }
+  }
+  
+  .staffgrid__item-title {
+
+    transition: 0.5s;
+    position: absolute;
+    right: 0;
+    bottom: -100%;
+    left: 0;
+    padding: 1rem 0.5rem;
+    margin: 0;
+    color: rgb(202, 125, 37);
+    text-align: center;
+    border-top: 0.5rem solid black;
+    background-color: #3a3c44;
+  }
+  
+  .staffgrid__item-socials {
+
+    transition: 0.5s;
+    position: absolute;
+    right: 0;
+    top: -62px;
+    left: 0;
+    padding: 1rem 0.5rem;
+    margin: 0;
+    color: rgb(202, 125, 37);
+    text-align: center;
+    border-bottom: 0.5rem solid black;
+    background-color: #3a3c44;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .staffgrid__item:hover .staffgrid__item-socials {
+
+    top: 0px;
+    transition: 0.5s;
+  }
+
+  .staffgrid__descriptor {
+
+    position: absolute;
+    left: 0;
+    top: 275px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+    color: white;
+    background: black;
+    border: 1px solid black;
+    z-index: 1;
+  }
+
+  @media (min-width: 640px) {
+
+    .staffgrid__descriptor {
+      
+      left: 25%;
+      width: 50%;
+    }
+  }
+
+  @media (min-width: 400px) {
+
+    
+  }
+  
