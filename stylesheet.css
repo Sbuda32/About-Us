@@ -42,11 +42,181 @@
     opacity: 0.7;
   }
 
-  @media (min-width: 319px) {
+  @media (min-width: 320px) {
 
     .staffgrid__item {
 
       width: 50%;
+    }
+
+    .staffgrid__descriptor {
+
+      padding-bottom: 0px !important;
+      padding-top: 0px !important;
+    }
+
+    p {
+      margin-top: -19px;
+    }
+
+    #one {
+
+      margin-top: 139px    
+    }
+
+    #two {
+
+      margin-top: 139px;
+    }
+
+    #three {
+
+      margin-top: -27px;
+    }
+
+    #eight {
+
+      margin-top: 0px !important;
+    }
+
+    #nine {
+
+      margin-top: -28px !important;    }
+  }
+
+  @media (min-width: 360px) {
+
+    .staffgrid__item {
+
+      width: 50%;
+    }
+
+    .staffgrid__descriptor {
+
+      padding-bottom: 0px !important;
+      padding-top: 1rem !important;
+    }
+
+    p {
+      margin-top: -6px;
+    }
+
+    #one {
+
+      margin-top: 139px    
+    }
+
+    #two {
+
+      margin-top: 139px;
+    }
+
+    #three {
+
+      margin-top: -27px;
+    }
+
+    #eight {
+
+      margin-top: 0px !important;
+    }
+
+    #nine {
+
+      margin-top: -28px !important;    }
+  }
+
+  @media (min-width: 375px) {
+
+    .staffgrid__item {
+
+      width: 50%;
+    }
+
+    .staffgrid__descriptor {
+
+      padding-bottom: 0px !important;
+      padding-top: 1rem !important;
+    }
+
+    p {
+      margin-top: -6px;
+    }
+
+    #one {
+
+      margin-top: 139px    
+    }
+
+    #two {
+
+      margin-top: 139px;
+    }
+
+    #three {
+
+      margin-top: -27px;
+    }
+
+    #eight {
+
+      margin-top: 0px !important;
+    }
+
+    #nine {
+
+      margin-top: -28px !important;    }
+  }
+
+  @media (min-width: 400px) {
+
+    .staffgrid__item {
+
+      width: 50%;
+    }
+
+    #one {
+
+      margin-top: 139px    
+    }
+
+    #two {
+
+      margin-top: 139px;
+    }
+
+    #three {
+
+      margin-top: -27px;
+    }
+
+    #eight {
+
+      margin-top: 0px !important;
+    }
+
+    #nine {
+
+      margin-top: -28px !important;    }
+  }
+
+  @media (min-width: 411px) {
+
+    .staffgrid__descriptor {
+
+      padding-bottom: 3.5rem !important;
+    }
+  }
+
+  @media (min-width: 414px) {
+
+    .staffgrid__descriptor {
+
+      padding-bottom: 2.2rem !important;
+    }
+
+    p {
+      margin-top: 0px;
     }
   }
 
@@ -55,6 +225,39 @@
     .staffgrid__item {
 
       width: 25%;
+    }
+  }
+
+  @media (min-width: 768px) {
+
+    #one {
+
+      margin-top: 0px;
+    }
+
+    #two {
+    
+      margin-top: 451px;
+    }
+
+    #three {
+    
+      margin-top: 451px;
+    }
+
+    #eight {
+    
+      margin-top: -522px !important;
+    }
+
+    #nine {
+    
+      margin-top: -247px !important;
+    }
+
+    #ten {
+    
+      margin-top: -319px !important;
     }
   }
   
@@ -118,9 +321,3 @@
       width: 50%;
     }
   }
-
-  @media (min-width: 400px) {
-
-    
-  }
-  
